@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Home from "../COMPONENTS/Home";
+import Navber from "../components/Navber/Navber";
 
 const MainLayout = () => {
     return (
         <div>
-            <Home></Home>
+            <Navber></Navber>
             <Outlet></Outlet>
         </div>
     );
