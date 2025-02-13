@@ -23,7 +23,7 @@ const Slider = () => {
             </button>
           </div>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-circle">
+            <a href="#slide3" className="btn btn-circle">
               ❮
             </a>
             <a href="#slide2" className="btn btn-circle">
@@ -63,7 +63,7 @@ const Slider = () => {
           id="slide3"
           className="slider carousel-item relative w-full bg-[url(https://joynul2024.sirv.com/camping_images/camp_banner2.jpg)] bg-no-repeat bg-center bg-cover object-cover rounded-xl"
         >
-          <div className="text-white text-center lg:max-w-[50%] mx-auto lg:pt-26 pt-10">
+          <div className="text-white text-center lg:max-w-[50%] mx-auto py-[50px] lg:py-[150px]">
             <h2 className="text-2xl lg:text-5xl font-bold mb-6">
               Escape to the Wild - Reconnect with Nature
             </h2>
@@ -80,7 +80,7 @@ const Slider = () => {
             <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
-            <a href="#slide4" className="btn btn-circle">
+            <a href="#slide1" className="btn btn-circle">
               ❯
             </a>
           </div>

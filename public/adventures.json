@@ -36,8 +36,9 @@
     "adventureLevel": "Easy",
     "includedItems": ["Kayak", "Fishing Gear", "Campfire Meals"],
     "ecoFriendlyFeatures": [
-      "Eco-friendly Toiletries",
-      "Reusable Water Bottles"
+      "Reusable Water Bottles",
+      "Solar Charging Stations",
+      "Recycled Paper Maps"
     ],
     "maxGroupSize": 8,
     "specialInstructions": [
@@ -58,7 +59,11 @@
     "duration": "4 Days, 3 Nights",
     "adventureLevel": "Challenging",
     "includedItems": ["Tent", "Hiking Gear", "Meals", "Wildlife Guide"],
-    "ecoFriendlyFeatures": ["Compost Toilets", "Eco-Trail Practices"],
+    "ecoFriendlyFeatures": [
+      "Compost Toilets",
+      "Eco-Trail Practices",
+      "Nature Conservation Tips"
+    ],
     "maxGroupSize": 12,
     "specialInstructions": [
       "Wear insect repellent.",
@@ -78,7 +83,11 @@
     "duration": "2 Nights",
     "adventureLevel": "Moderate",
     "includedItems": ["Tent", "Camel Ride", "Meals", "Star Gazing Guide"],
-    "ecoFriendlyFeatures": ["Solar Power", "Minimal Water Usage"],
+    "ecoFriendlyFeatures": [
+      "Solar Power",
+      "Minimal Water Usage",
+      "Biodegradable Soap"
+    ],
     "maxGroupSize": 15,
     "specialInstructions": [
       "Bring sunglasses and sunscreen.",
@@ -98,7 +107,11 @@
     "duration": "3 Days, 2 Nights",
     "adventureLevel": "Easy",
     "includedItems": ["Tent", "Beach Volleyball", "Meals", "Bonfire"],
-    "ecoFriendlyFeatures": ["Plastic-Free Policy", "Beach Cleanup Activity"],
+    "ecoFriendlyFeatures": [
+      "Plastic-Free Policy",
+      "Beach Cleanup Activity",
+      "Reusable Water Bottles"
+    ],
     "maxGroupSize": 20,
     "specialInstructions": [
       "Avoid using plastic bottles.",
@@ -118,7 +131,11 @@
     "duration": "5 Days, 4 Nights",
     "adventureLevel": "Hard",
     "includedItems": ["Survival Kit", "Tent", "Guided Tours", "Meals"],
-    "ecoFriendlyFeatures": ["Zero Waste Policy", "Use of Natural Resources"],
+    "ecoFriendlyFeatures": [
+      "Zero Waste Policy",
+      "Use of Natural Resources",
+      "Recycled Paper Maps"
+    ],
     "maxGroupSize": 8,
     "specialInstructions": [
       "Stay close to the guide.",
@@ -138,7 +155,11 @@
     "duration": "2 Days, 1 Night",
     "adventureLevel": "Easy",
     "includedItems": ["Tent", "BBQ Grill", "Outdoor Games"],
-    "ecoFriendlyFeatures": ["Recycling Bins", "Eco-friendly Products"],
+    "ecoFriendlyFeatures": [
+      "Recycling Bins",
+      "Eco-friendly Products",
+      "Eco-friendly Toiletries"
+    ],
     "maxGroupSize": 25,
     "specialInstructions": [
       "Family-friendly activities available.",
@@ -160,7 +181,8 @@
     "includedItems": ["Boat Ride", "Tent", "Snorkeling Gear"],
     "ecoFriendlyFeatures": [
       "Coral Conservation Tour",
-      "Biodegradable Utensils"
+      "Biodegradable Utensils",
+      "Eco-Trail Practices"
     ],
     "maxGroupSize": 10,
     "specialInstructions": [
@@ -181,7 +203,11 @@
     "duration": "2 Nights",
     "adventureLevel": "Easy",
     "includedItems": ["Luxury Tent", "Hot Tub", "Gourmet Meals"],
-    "ecoFriendlyFeatures": ["Eco-Resort Certified", "Organic Meals"],
+    "ecoFriendlyFeatures": [
+      "Eco-Resort Certified",
+      "Organic Meals",
+      "Organic Waste Disposal"
+    ],
     "maxGroupSize": 6,
     "specialInstructions": [
       "Book early due to high demand.",
@@ -206,7 +232,11 @@
       "Hot Meals",
       "Skiing Lessons"
     ],
-    "ecoFriendlyFeatures": ["Renewable Energy Use", "Minimal Impact Policy"],
+    "ecoFriendlyFeatures": [
+      "Renewable Energy Use",
+      "Minimal Impact Policy",
+      "Solar Water Heating"
+    ],
     "maxGroupSize": 12,
     "specialInstructions": [
       "Dress in layers for warmth.",
@@ -225,7 +255,13 @@
     "location": "Colorado River, USA",
     "duration": "3 Days, 2 Nights",
     "adventureLevel": "Hard",
-    "includedItems": ["Rafting Gear", "Tent", "Meals", "Safety Guide"],
+    "includedItems": [
+      "Rafting Gear",
+      "Tent",
+      "Meals",
+      "Safety Guide",
+      "Minimal Footprint Policy"
+    ],
     "ecoFriendlyFeatures": [
       "Water Conservation Practices",
       "Eco-Friendly Gear"
@@ -249,7 +285,11 @@
     "duration": "4 Days, 3 Nights",
     "adventureLevel": "Challenging",
     "includedItems": ["Tent", "Climbing Gear", "Meals"],
-    "ecoFriendlyFeatures": ["Minimal Waste Policy", "Solar Showers"],
+    "ecoFriendlyFeatures": [
+      "Minimal Waste Policy",
+      "Solar Showers",
+      "Solar Power"
+    ],
     "maxGroupSize": 8,
     "specialInstructions": [
       "Stay within marked trails.",
@@ -274,7 +314,11 @@
       "Meals",
       "Wildlife Spotting Gear"
     ],
-    "ecoFriendlyFeatures": ["Organic Meals", "Eco-Lodging Options"],
+    "ecoFriendlyFeatures": [
+      "Organic Meals",
+      "Eco-Lodging Options",
+      "Minimal Water Usage"
+    ],
     "maxGroupSize": 10,
     "specialInstructions": [
       "Use natural insect repellents.",
@@ -294,7 +338,11 @@
     "duration": "3 Days, 2 Nights",
     "adventureLevel": "Hard",
     "includedItems": ["Thermal Tent", "Snow Gear", "Guided Tours", "Hot Meals"],
-    "ecoFriendlyFeatures": ["Eco-Friendly Heating", "Waste-Free Camping"],
+    "ecoFriendlyFeatures": [
+      "Eco-Friendly Heating",
+      "Minimal Water Usage",
+      "Waste-Free Camping"
+    ],
     "maxGroupSize": 6,
     "specialInstructions": [
       "Dress in thermal layers.",
@@ -319,7 +367,11 @@
       "Wildlife Tours",
       "Photography Guide"
     ],
-    "ecoFriendlyFeatures": ["Eco-Tourism Certified", "Solar Lighting"],
+    "ecoFriendlyFeatures": [
+      "Eco-Tourism Certified",
+      "Solar Lighting",
+      "Reusable Cooking Utensils"
+    ],
     "maxGroupSize": 12,
     "specialInstructions": [
       "Remain in vehicles during wildlife tours.",
@@ -339,7 +391,11 @@
     "duration": "3 Days, 2 Nights",
     "adventureLevel": "Challenging",
     "includedItems": ["Tent", "Safety Gear", "Meals", "Volcano Tour Guide"],
-    "ecoFriendlyFeatures": ["Minimal Impact Trails", "Eco-Safe Practices"],
+    "ecoFriendlyFeatures": [
+      "Minimal Impact Trails",
+      "Eco-Safe Practices",
+      "Sustainable Travel Practices"
+    ],
     "maxGroupSize": 10,
     "specialInstructions": [
       "Follow safety protocols strictly.",
