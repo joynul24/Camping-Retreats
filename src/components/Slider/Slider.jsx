@@ -1,13 +1,28 @@
+import "./Slider.css";
+
 const Slider = () => {
   return (
-    <div className="container mx-auto mt-10">
-      <div className="carousel ">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+    <div className="container mx-auto lg:mt-10 mt-5 px-1 lg:px-0">
+      <div className="carousel">
+        {/* Slider 1 */}
+        <div
+          id="slide1"
+          className="slider carousel-item relative w-full bg-[url(https://joynul2024.sirv.com/camping_images/camp_banner4.jpg)] bg-no-repeat bg-center bg-cover object-cover rounded-xl"
+        >
+          <div className="text-white text-center lg:max-w-[50%] mx-auto py-[50px] lg:py-[150px]">
+            <h2 className="text-2xl lg:text-5xl font-bold mb-6">
+              Escape to the Wild - Reconnect with Nature
+            </h2>
+            <p className="text-base font-inter">
+              Immerse yourself in the beauty of nature, where peace and
+              adventure await. Step <br /> away from the hustle of daily life
+              and embrace the wilderness.
+            </p>
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+              Book Your Adventure
+            </button>
+          </div>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle">
               ❮
             </a>
@@ -16,12 +31,25 @@ const Slider = () => {
             </a>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        {/* Slider 2 */}
+        <div
+          id="slide2"
+          className="slider carousel-item relative w-full bg-[url(https://joynul2024.sirv.com/camping_images/camp_banner3.jpg)] bg-no-repeat bg-center bg-cover object-cover rounded-xl"
+        >
+          <div className="text-white text-center lg:max-w-[50%] mx-auto py-[50px] lg:py-[150px]">
+            <h2 className="text-2xl lg:text-5xl font-bold mb-6">
+              Escape to the Wild - Reconnect with Nature
+            </h2>
+            <p className="text-base font-inter">
+              Immerse yourself in the beauty of nature, where peace and
+              adventure await. Step <br /> away from the hustle of daily life
+              and embrace the wilderness.
+            </p>
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+              Book Your Adventure
+            </button>
+          </div>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">
               ❮
             </a>
@@ -30,30 +58,29 @@ const Slider = () => {
             </a>
           </div>
         </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        {/* Slider 3  */}
+        <div
+          id="slide3"
+          className="slider carousel-item relative w-full bg-[url(https://joynul2024.sirv.com/camping_images/camp_banner2.jpg)] bg-no-repeat bg-center bg-cover object-cover rounded-xl"
+        >
+          <div className="text-white text-center lg:max-w-[50%] mx-auto lg:pt-26 pt-10">
+            <h2 className="text-2xl lg:text-5xl font-bold mb-6">
+              Escape to the Wild - Reconnect with Nature
+            </h2>
+            <p className="text-base font-inter">
+              Immerse yourself in the beauty of nature, where peace and
+              adventure await. Step <br /> away from the hustle of daily life
+              and embrace the wilderness.
+            </p>
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+              Book Your Adventure
+            </button>
+          </div>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
             <a href="#slide4" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
               ❯
             </a>
           </div>

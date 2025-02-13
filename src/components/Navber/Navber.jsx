@@ -43,7 +43,7 @@ const Navber = () => {
         <span className="md:flex hidden">
             <img className="w-15" src="https://joynul2024.sirv.com/camping_images/camp-logo.jpg" alt="" />
         </span>
-        <a className="btn btn-ghost text-xl text-[#8bb83b]">Camping Retreats</a>
+        <h2 className="lg:text-xl text-[#8bb83b]">Camping Retreats</h2>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -51,7 +51,7 @@ const Navber = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#8bb83b] border-0 text-white">Login</a>
+        <a className="btn bg-[#8bb83b] border-0 text-white hover:bg-[#81a14d]">Login</a>
       </div>
     </div>
   );
