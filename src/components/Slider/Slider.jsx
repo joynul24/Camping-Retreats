@@ -18,7 +18,7 @@ const Slider = () => {
               adventure await. Step <br /> away from the hustle of daily life
               and embrace the wilderness.
             </p>
-            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-white hover:text-black">
               Book Your Adventure
             </button>
           </div>
@@ -45,7 +45,7 @@ const Slider = () => {
               adventure await. Step <br /> away from the hustle of daily life
               and embrace the wilderness.
             </p>
-            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-white hover:text-black">
               Book Your Adventure
             </button>
           </div>
@@ -72,7 +72,7 @@ const Slider = () => {
               adventure await. Step <br /> away from the hustle of daily life
               and embrace the wilderness.
             </p>
-            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-[#77993d]">
+            <button className="btn bg-[#8bb83b] border-0 text-white mt-6 hover:bg-white hover:text-black">
               Book Your Adventure
             </button>
           </div>

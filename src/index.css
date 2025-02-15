@@ -10,3 +10,7 @@ body {
 .font-inter {
   font-family: "Inter", serif;
 }
+
+html{
+  overflow-y: scroll;
+}
