@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Slider from "../../Slider/Slider";
 import Adventure from "../../Adventure/Adventure";
+import ChooseUs from "../../ChooseUs/ChooseUs";
 
 const Home = () => {
 
@@ -16,6 +17,9 @@ const Home = () => {
              {
                 adventures.slice(0,6).map(adventure => <Adventure key={adventure.id} adventure={adventure}></Adventure>)
              }
+             </div>
+             <div>
+                <ChooseUs></ChooseUs>
              </div>
             </div>
         </div>

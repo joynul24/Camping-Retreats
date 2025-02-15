@@ -24,23 +24,23 @@ const CardDetails = () => {
         </figure>
         <div className="w-full space-y-1 p-6">
           <h1 className="font-bold md:text-2xl lg:text-3xl">{adventureTitle}</h1>
-          <p className="font-inter">
-            Description:{" "}
-            <span className="text-gray-600">{shortDescription}</span>
+          <p className="font-inter font-medium">
+            Description:
+             <span className="text-gray-600"> {shortDescription}</span>
           </p>
-          <p className="font-inter">
+          <p className="font-inter font-medium">
             Adventure Cost: <span className="text-gray-600">{adventureCost}$</span>
           </p>
-          <p className="font-inter">
+          <p className="font-inter font-medium">
             Category: <span className="text-gray-600">{categoryName}.</span>
           </p>
-          <p className="font-inter">
+          <p className="font-inter font-medium">
             Location: <span className="text-gray-600">{location}.</span>
           </p>
-          <p className="font-inter">
+          <p className="font-inter font-medium">
             duration: <span className="text-gray-600">{duration}.</span>
           </p>
-          <p className="font-inter">
+          <p className="font-inter font-medium">
             Adventure Level:{" "}
             <span className="text-gray-600">{adventureLevel}.</span>
           </p>
