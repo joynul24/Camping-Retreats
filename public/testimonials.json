@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Doe",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "review": "The best camping experience I've ever had! The location was perfect, and the facilities were top-notch.",
+    "rating": 5
+  },
+  {
+    "name": "Sarah Smith",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "review": "Absolutely loved it! The tents were cozy, and the outdoor activities were amazing. Highly recommend!",
+    "rating": 5
+  },
+  {
+    "name": "Michael Brown",
+    "image": "https://randomuser.me/api/portraits/men/56.jpg",
+    "review": "A peaceful retreat in the heart of nature. Great service, friendly staff, and breathtaking views!",
+    "rating": 4
+  }
+]

@@ -5,7 +5,7 @@ const ChooseUs = () => {
             <h1 className=" text-xl md:text-2xl lg:text-3xl font-bold text-center">Why Choose Us</h1>
             <h4 className="font-inter text-gray-600 text-center mt-4">There are a few experiences given below, please choose your choice</h4>
 
-            <div className="mt-10 flex-col lg:flex-row lg:flex gap-6">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {/* card 1 */}
                 <div className="border border-blue-400 p-6 rounded-2xl mb-5 lg:mb-0">
                    <div className="flex justify-center">

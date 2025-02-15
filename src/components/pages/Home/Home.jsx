@@ -2,11 +2,12 @@ import { useLoaderData } from "react-router-dom";
 import Slider from "../../Slider/Slider";
 import Adventure from "../../Adventure/Adventure";
 import ChooseUs from "../../ChooseUs/ChooseUs";
+import ClientReview from "../../ClientReview/ClientReview";
 
 const Home = () => {
 
     const adventures = useLoaderData()
-
+ 
     return (
         <div>
             <Slider></Slider>
@@ -20,6 +21,7 @@ const Home = () => {
              </div>
              <div>
                 <ChooseUs></ChooseUs>
+                <ClientReview></ClientReview>
              </div>
             </div>
         </div>
