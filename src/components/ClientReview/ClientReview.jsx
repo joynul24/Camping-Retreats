@@ -8,7 +8,6 @@ const ClientReview = () => {
       .then((res) => res.json())
       .then((data) => setClientReview(data));
   }, []);
-  console.log(clientReview);
 
   return (
     <div>
