@@ -1,19 +1,18 @@
-# React template
+1. Project Name: Camping Retreats
 
-As React 19 is new, this scaffolding project is for everyone who wants to start coding in React 19.
+2. "Camping Retreats" is a web app where camping enthusiasts can easily find campsites, make bookings, and share their experiences.
 
-It has:
+3.🔗 Live URL: https://camping-retreats.netlify.app/
 
-- Vite
-- React 19.0(Stable Version)
-- React Router
-- TailwindCSS 4.x
-- daisyUi 5
+4.✨ Key Features
+✅ User registration and login
+✅ Campsite browsing and booking
+✅ Camp review and rating system
+✅ Mobile-friendly design
 
-## Create Your Own React 19 Project with Vite and TailwindCSS
-
-There are multiple ways you can utilize this repository to create your own project. The most straightforward way is by using the follwoing command from the command prompt/terminal:
-
-```bash
-npx degit rubel04/React-template-with-tailwind-daisyui-react-router-vite#main <YOUR_PROJECT_NAME>
-```
+5.📦 Technologies & Packages
+👉 Firebase/Auth0 - User authentication (if used)
+👉 React Router - Routing
+👉 Tailwind CSS - Styling
+👉 Daisy UI - Styling
+👉 React.js - Frontend development
