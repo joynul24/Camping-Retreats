@@ -25,8 +25,7 @@ const Login = () => {
 
     const handleGoogleSignIn = () => {
       signInWithGoogle()
-      .then((result) => {
-        console.log(result.user);
+      .then(() => {
         navigate('/')
       })
       .catch((error) => {

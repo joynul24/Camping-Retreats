@@ -2,7 +2,6 @@ import { useLoaderData } from "react-router-dom";
 
 const CardDetails = () => {
   const data = useLoaderData();
-  console.log(data);
   const {
     adventureTitle,
     shortDescription,
