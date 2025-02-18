@@ -1,8 +1,13 @@
 /* eslint-disable react/prop-types */
 
-import { Link, NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Adventure = ({ adventure }) => {
+  const {user} = useContext(AuthContext);
+  const navigate = useNavigate()
+  
   const { image, adventureTitle, ecoFriendlyFeatures,id } = adventure;
   return (
     <div className="card shadow-2xl mt-10 transition duration-500 hover:scale-105 overflow-hidden">
@@ -24,7 +29,7 @@ const Adventure = ({ adventure }) => {
               All Adventure
             </h3>
           </Link>
-          <NavLink to={`/CardDetails/${id}`}>
+          <NavLink to={user ? `/CardDetails/${id}` : navigate('/login')}>
             <button className="btn bg-[#8bb83b] border-0 text-white hover:bg-[#669AB2] block w-full">
               Explore Now
             </button>

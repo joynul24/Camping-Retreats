@@ -84,7 +84,7 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          {user ? (
+          {user ? 
             <div className="flex gap-2 items-center">
               <div
                 className="tooltip tooltip-bottom"
@@ -105,13 +105,13 @@ const Navber = () => {
                 Sign Out
               </button>
             </div>
-          ) : (
+           : 
             <Link to="/login">
               <button className="btn bg-[#8bb83b] border-0 text-white hover:bg-[#669AB2]">
                 Login
               </button>
             </Link>
-          )}
+          }
         </div>
       </div>
     </div>

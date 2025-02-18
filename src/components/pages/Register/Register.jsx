@@ -18,7 +18,7 @@ const Register = () => {
         .then(result => {
           setUser(result.user)
           updateUserProfile({displayName:name, photoURL:photo})
-        }).then(() => {
+        }).then(()=> {
           e.target.reset();
           navigate('/')
         }).catch(error => {
@@ -46,7 +46,7 @@ const Register = () => {
         <form onSubmit={handleRegister} className="card-body space-y-2">
        <h3 className="text-xl font-bold text-center text-white">Register With</h3>
        <button onClick={handleGoogleSignIn} className="btn text-blue-500 bg-white border-0"><FcGoogle></FcGoogle> Google</button>
-                 <div className="divider text-white ">OR</div>
+          <div className="text-center text-white font-bold">Or</div>
           <div className="form-control">
             <label className="label">
               <span className="label-text text-white">Name</span>

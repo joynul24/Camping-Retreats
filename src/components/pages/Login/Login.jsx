@@ -40,7 +40,7 @@ const Login = () => {
         <form onSubmit={handleLogin} className="card-body space-y-2">
         <h3 className="text-xl font-bold text-center text-white">Login With</h3>
           <button onClick={handleGoogleSignIn} className="btn text-blue-500 bg-white border-0"><FcGoogle></FcGoogle> Google</button>
-          <div className="divider text-white ">OR</div>
+          <div className="text-center text-white font-bold">Or</div>
           <div className="form-control">
             <label className="label">
               <span className="label-text text-white">Email</span>
