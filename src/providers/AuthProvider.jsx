@@ -22,6 +22,9 @@ const AuthProvider = ({ children }) => {
   }
 
   const signInWithGoogle = () => {
+    googleProvider.setCustomParameters({
+      prompt: "select_account",
+    });
     return signInWithPopup(auth, googleProvider)
   }
 
