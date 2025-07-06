@@ -2,7 +2,7 @@
 
 2. "Camping Retreats" is a web app where camping enthusiasts can easily find campsites, make bookings, and share their experiences.
 
-3.🔗 Live URL: https://camping-retreats.netlify.app/
+3.🔗 Live URL: https://enjoyable-camping.netlify.app/
 
 4.✨ Key Features
 ✅ User registration and login
